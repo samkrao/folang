@@ -2,15 +2,16 @@
 
 > [!Note]
 > This repository is currently a public placeholder. 
-
+>
 > The language and its toolchain are under active research and implementation in private repositories.
-
+>
 > We are working diligently to achieve a functional implementation.
-
+>
 > If we are able to produce a stable working codebase—whether fully feature-complete or a minimal subset—it will be published here.
-
+>
 > Follow this repository for release notifications.
-
+>
+-----
 
 <p align="center">
   <img src="Banner_52.png" width="360" height="360" alt="Foλang Logo" style="background: none;"/>
