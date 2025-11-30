@@ -1,3 +1,15 @@
+# ⚙️ IN ACTIVE DEVELOPMENT ⚙️
+
+> [!NOTE]
+> This repository is currently a **public placeholder**. 
+> 
+> The core code is actively being developed (or "baking") in private repositories. Once the project reaches a working, stable condition, the full source code will be published here.
+> 
+> Thank you for your patience! Please **Star** this repository to be notified when the code is released.
+
+---
+
+
 <p align="center">
   <img src="Banner_52.png" width="360" height="360" alt="Foλang Logo" style="background: none;"/>
 </p>
