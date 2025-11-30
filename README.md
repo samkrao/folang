@@ -5,9 +5,9 @@
 >
 > The language and its toolchain are under active research and implementation in private repositories.
 >
-> We are working diligently to achieve a functional implementation.
+> Development is progressing little by little toward a functional implementation.
 >
-> If we are able to produce a stable working codebase—whether fully feature-complete or a minimal subset—it will be published here.
+> A stable version—either complete or a working subset—will be made available here when it’s ready.
 >
 > Follow this repository for release notifications.
 >
