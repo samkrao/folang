@@ -10,6 +10,7 @@
 - 🟩 Repo structure and documentation  
 - 🟩 Architectural overview  
 - 🟩 Initial design notes  
+- 🟩 Feature Freeze
 - 🟩 Type system + shape semantics draft  
 - 🟩 Early internal experiments  
 
