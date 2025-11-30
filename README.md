@@ -118,3 +118,11 @@ This project was inspired by the amazing work of:
 - ChatGPT by OpenAI
 
 See [CREDITS.md](https://github.com/samkrao/folang/blob/main/docs/CREDITS.md) for more details.
+
+
+
+## 📘 Roadmap
+
+See:  
+➡️ [MILESTONES.md](./ROADMAP.md)  
+(A complete milestone checklist with progress tracking)
