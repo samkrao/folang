@@ -12,8 +12,8 @@
 - [x] Tokenizer / lexer  
 - [x] Complete grammar  
 - [x] AST node definitions  
-- [-] Parse all constructs  
-- [-] Syntax validation  
+- [⧖] Parse all constructs  
+- [~] Syntax validation  
 - [-] Semantic analysis  
   - [-] Scopes  
   - [-] Name resolution  
