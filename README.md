@@ -2,11 +2,14 @@
 
 > [!Note]
 > This repository is currently a public placeholder. 
+
 > The language and its toolchain are under active research and implementation in private repositories.
 
-> A minimal, stable version of the parser and backend is planned for public release once it meets the required quality and completeness criteria. Additional features may be published over time, depending on progress.
+> We are working diligently to achieve a functional implementation.
 
->Follow this repository for release notifications.
+> If we are able to produce a stable working codebase—whether fully feature-complete or a minimal subset—it will be published here.
+
+> Follow this repository for release notifications.
 
 
 <p align="center">
