@@ -1,0 +1,6 @@
+fol-lang:
+  output_folder: out
+  lib_folder: lib
+  exe_folder: build 
+  back-end: GCC
+  env_type: Compile
