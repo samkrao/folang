@@ -215,6 +215,7 @@
                ├── kind: <FatKind>
                │    ├── thin
                │    ├── slice
+               |    |── relative
                │    ├── trait
                │    ├── buffer
                │    ├── view
@@ -234,6 +235,15 @@
           b. Unsigned
 
                define z co.lang.uintptr; 
+          
+          c. Diff
+
+               define p co.lang.ptrdiff;
+     
+     3. Relative Pointers
+
+          a. define z co.lang.int->(*,kind=relative, meta={})
+
 
 #### Some Limitations set by fo-lang while declaring Special Variables
 

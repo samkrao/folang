@@ -93,6 +93,12 @@
             define x co.lang.int->(*);
             define x co.lang.int->(**);
             define x co.lang.int->(***);
+
+        #fat pointers and relative pointers
+
+            define y co.lang.int->(*, meta={len:co.lang.usize,vtab:somepkg.VTable->(*)})
+            define z co.lang.int->(*,kind=region, meta={})
+            define z co.lang.int->(*,kind=relative, meta={})
         
         #Single Dimensional Array:
             define x co.lang.int->([5]);
@@ -120,6 +126,10 @@
           #Unsigned:
 
                define z co.lang.uintptr; 
+
+          #diff
+           
+               define p co.lang.ptrdiff;
               
         #Thunks:
             define x co.lang.int->(^);
