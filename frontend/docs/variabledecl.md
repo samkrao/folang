@@ -44,23 +44,23 @@
 
                  define arr1 co.lang.int->([2,3]);
 
-           iii. Flexible Array or FAM or VLA
-
-                  define famarr co.lang.int->(][);
-
-           iv. Zero Dimension/Zero Length Arrays
+          
+           iii. Zero Dimension/Zero Length Arrays
 
                  define zdarr co.lang.int->([0]);
 
-             v. Jagged/Array of Arrays
+          iv. Jagged/Array of Arrays
 
                   define arr co.lang.int->([5][4]);
              
-           v. Dynamic length
+           v. Dynamic length or Flexible Array or VLA
 
+                  define dynarr2 co.lang.int->([...]); // currently supported this
+                  or
                   define dynarr1 co.lang.int ->([*]);
                   or
-                  define dynarr2 co.lang.int->([...]);
+                  define famarr co.lang.int->(][);
+
 
            vi. Dynamic sized multi dimensional array
                
