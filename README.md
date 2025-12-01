@@ -117,7 +117,7 @@ This project was inspired by the amazing work of:
 - [Tyler Laceby](https://github.com/tlaceby)
 - ChatGPT by OpenAI
 
-See [CREDITS.md](https://github.com/samkrao/folang/blob/main/docs/CREDITS.md) for more details.
+See [CREDITS.md](https://github.com/samkrao/folang/blob/main/frontend/docs/CREDITS.md) for more details.
 
 
 
