@@ -29,11 +29,11 @@
 </p>
 
 
-**𝑓oλang**  is a general-purpose programming language designed to make code expressive, consistent, and extensible.
+**𝑓oλang** is a general-purpose programming language aimed at providing expressive, consistent, and extensible syntax.
 
-Its name reflects its core philosophy: a system where Objects provide structure while the overall programming experience remains functional, fluent, and predictable.
+It combines object-based structure with a functional style to create fluent and readable code.
 
-The language’s initial design and underlying ideas were developed in 2025, and these concepts now form the foundation of the FoLang specification..
+The language’s initial concepts were developed in 2025 and form the basis of the current FoLang specification.
 
 ## License
 
