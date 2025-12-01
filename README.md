@@ -33,8 +33,7 @@
 
 As the name suggests a system where Objects are at the core, while the code feels functional and flows fluently.
 
-This idea was first developed and implemented by **samkrao@gmail.com** in **2025** and is a core part of the FoLang specification.
-
+FoLang was conceptualized and developed in 2025, and its core ideas now define the foundation of the language specification.
 
 ## License
 
