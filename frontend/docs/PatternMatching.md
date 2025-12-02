@@ -35,7 +35,10 @@ Pattern Matching in the language
         x.match(PositiveEvenMatcher).case(0   =>  "Neither even nor odd" ).case(2   =>"First Even Prime").default(...);
        
         Where PositiveEvenMatcher is customMatcher
-        
+        define Matcher(T) co.lang.signature = {
+            matchCase(value T, pattern co.lang.untyped)
+                -> (co.lang.int, MatchBindings); //int in return is number of matches 0 no match >0 match
+        }
         @co.dap.matcher
         define PositiveEvenMatcher co.lang.shape = {
             matchCase(value co.lang.int, pat co.lang.untyped)->(co.lang.int, MatchBindings) = {
