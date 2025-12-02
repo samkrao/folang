@@ -18,17 +18,24 @@ Pattern Matching in the language
 
         where n is binding variable
 
-        x.match(co.pattern.Type).case(n: n > 10 => { n= n+100;"GT"}).case(_: n < 10 => "LT").default("EQ")
+        x.match(co.pattern.Type).case(co.lang.int   => ...).case(co.lang.float => ...);
+        x.match(co.pattern.Value).case (0 => ...).case (1 => ...);
+        x.match(co.pattern.Instance).case(xx.CAT=>...).case(xx.DOG => ...).default("Animal")
+        x.match(co.pattern.Object).case(xx.Ball => "Ball"}).case(xx.CAT=> "CAT").default("Unknown")
+        x.match(Shape).case (Point{x, y} => ...).default(_=> ...);
+        x.match(co.pattern.Any).(case co.lang.int   => ...).case (co.lang.float => ...).case (0 => ...).default(_=> ...);
+        or
+        x.match.case(co.lang.int   => ...).case (co.lang.float => ...).case (0 => ...).default(_=> ...);
+        x.match(PositiveEvenMatcher).case(0   =>  "Neither even nor odd" ).case(2   =>"First Even Prime").default(...);
        
-        x.match(co.pattern.Value).case(n: n > 10 => { n= n+100;"GT"}).case(_: n < 10 => "LT").default("EQ")
-       
-        x.match(co.pattern.Instance).case(n: n > 10 => { n= n+100;"GT"}).case(_: n < 10 => "LT").default("EQ")
-       
-        x.match(co.pattern.Object).case(n: n > 10 => { n= n+100;"GT"}).case(_: n < 10 => "LT").default("EQ")
+        Where PositiveEvenMatcher is customMatcher
+        
+        @co.dap.matcher
+        define PositiveEvenMatcher co.lang.shape = {
+            matchCase(value co.lang.int, pat co.lang.untyped)->(co.lang.int, MatchBindings) = {
+            // user logic…
+            }
+        }
 
-        x.match(co.pattern.Shape).case(n: n > 10 => { n= n+100;"GT"}).case(_: n < 10 => "LT").default("EQ")
 
-       
-         x.match(co.pattern.Any).case(n: n > 10 => { n= n+100;"GT"}).case(_: n < 10 => "LT").default("EQ") //is default
-       
 ##### _ is a special discard/ wildcard variable usable only inside pattern matching/ contains/iterators constructs (and similar discardable constructs), and is not a normal variable name by alone elsewhere _ must accompany by some ASCII letter or number .
