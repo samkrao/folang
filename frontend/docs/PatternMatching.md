@@ -22,7 +22,13 @@ Pattern Matching in the language
         x.match(co.pattern.Value).case (0 => ...).case (1 => ...);
         x.match(co.pattern.Instance).case(xx.CAT=>...).case(xx.DOG => ...).default("Animal")
         x.match(co.pattern.Object).case(xx.Ball => "Ball"}).case(xx.CAT=> "CAT").default("Unknown")
+            
         x.match(Shape).case (Point{x, y} => ...).default(_=> ...);
+        
+        Where object,instance and shape differ
+            1. Functions objects are not instances
+            2. Structs are pure types they are neither objects nor instances their instances are called shapes
+        
         x.match(co.pattern.Any).(case co.lang.int   => ...).case (co.lang.float => ...).case (0 => ...).default(_=> ...);
         or
         x.match.case(co.lang.int   => ...).case (co.lang.float => ...).case (0 => ...).default(_=> ...);
