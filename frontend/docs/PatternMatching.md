@@ -21,7 +21,7 @@ Pattern Matching in the language
         x.match(co.pattern.Type).case(co.lang.int   => ...).case(co.lang.float => ...);
         x.match(co.pattern.Value).case (0 => ...).case (1 => ...);
         x.match(co.pattern.Instance).case(xx.CAT=>...).case(xx.DOG => ...).default("Animal")
-        x.match(co.pattern.Object).case(xx.Ball => "Ball"}).case(xx.CAT=> "CAT").default("Unknown")
+        x.match(co.pattern.Object).case(xx.Ball => "Ball").case(xx.CAT=> "CAT").default("Unknown")
             
         x.match(Shape).case (Point{x, y} => ...).default(_=> ...);
         
