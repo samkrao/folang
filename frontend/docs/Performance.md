@@ -7,7 +7,7 @@
             
          1. @co.dap.parallel    
             define doSomeComplexLogic(a co.lang.int, b co.lang.int)->(co.lang.int, co.lang.Error)={}
-   
+          
   2. Concurrent
 
       Co lang programmer can use following annotations/directives to achieve/introduce concurrency
@@ -15,7 +15,7 @@
          1. @co.dap.concurent    
             define doSomeComplexLogic(a co.lang.int, b co.lang.int)->(co.lang.int, co.lang.Error)={}
   
-  5. continuations
+  3. continuations
 
       Co Lang supports two kinds of continuations.
 
@@ -35,11 +35,11 @@
             define  doSomeComplexLogic(a co.lang.int, b co.lang.int)->(co.lang.int, co.lang.Error)={}
       
       
-  6. Call backs
+  4. Call backs
   
      [Error and Exception handling](eeh.md)
 
-  7. defer
+  5. defer
        
        [Error and Exception handling](eeh.md)
 
