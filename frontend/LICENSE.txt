@@ -672,3 +672,32 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+
+====================================================================
+FoLang Plugin Linking Exception (Additional Permission under GPLv3)
+====================================================================
+
+As an additional permission under section 7 of the GNU General Public License
+version 3 (GPLv3), the FoLang Project permits non‑GPL plugins to be developed
+and distributed for use with the FoLang software, under the following terms:
+
+1. Mere use of the FoLang public plugin interfaces, headers, shared libraries,
+   or API definitions ("FoLang API") to develop a plugin does not in itself
+   cause the resulting plugin to be covered by GPLv3.
+
+2. A plugin designed to work with FoLang may be licensed under terms chosen by
+   the plugin developer, including proprietary terms, provided the plugin is
+   distributed separately from FoLang by the FoLang Project.
+
+3. If any party other than the FoLang Project distributes FoLang together with
+   a plugin in a combined work, that party is responsible for ensuring
+   compliance with GPLv3. This exception does not grant any right to impose
+   further restrictions on FoLang beyond those permitted under GPLv3.
+
+4. This exception does not apply to modifications to FoLang itself. Any changes
+   to FoLang must remain licensed under GPLv3.
+
+5. This exception is intended solely to enable third‑party plugin development,
+   including commercial or closed‑source plugins, without such plugins being
+   automatically subject to GPLv3 merely because they interface with FoLang.
