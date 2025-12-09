@@ -1,3 +1,18 @@
+# ⚙️ In Active Development
+
+> [!Note]
+> This repository is currently a public placeholder. 
+>
+> The language and its toolchain are under active research and implementation in private repositories.
+>
+> Development is progressing little by little toward a functional implementation.
+>
+> A stable version—either complete or a working subset—will be made available here when it’s ready.
+>
+> Follow this repository for release notifications.
+>
+-----
+
 <p align="center">
   <img src="Banner_52.png" width="400" alt="Foλang Logo"/>
 </p>
@@ -113,3 +128,14 @@ Inspired by:
 - ChatGPT
 
 See `docs/CREDITS.md` for full attribution.
+
+See:  
+➡️ [MILESTONES.md](./ROADMAP.md)  
+(A complete milestone checklist with progress tracking)
+
+
+
+
+---
+> © 2025 — FoLang Project  
+---
