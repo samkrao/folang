@@ -1,127 +1,115 @@
-# ⚙️ In Active Development
-
-> [!Note]
-> This repository is currently a public placeholder. 
->
-> The language and its toolchain are under active research and implementation in private repositories.
->
-> Development is progressing little by little toward a functional implementation.
->
-> A stable version—either complete or a working subset—will be made available here when it’s ready.
->
-> Follow this repository for release notifications.
->
------
-
 <p align="center">
-  <img src="Banner_52.png" width="360" height="360" alt="Foλang Logo" style="background: none;"/>
-</p>
-<p align="center">
-  <a href="https://github.com/samkrao/folang/releases">
-    <img src="https://img.shields.io/github/v/release/yourname/folang?color=3cb4ac&label=version&style=flat-square" alt="version"/>
-  </a>
-  <a href="https://github.com/samkrao/folang/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/yourname/folang?style=flat-square" alt="license"/>
-  </a>
-  <a href="https://github.com/topics/programming-language">
-    <img src="https://img.shields.io/badge/language-design-blue?style=flat-square" alt="category"/>
-  </a>
+  <img src="Banner_52.png" width="400" alt="Foλang Logo"/>
 </p>
 
+<p align="center">
+  <a href="https://github.com/samkrao/folang/releases"><img src="https://img.shields.io/github/v/release/samkrao/folang?color=3cb4ac&style=flat-square" /></a>
+  <a href="LICENSE.txt"><img src="https://img.shields.io/badge/license-GPLv3-blue?style=flat-square" /></a>
+  <a href="shared/LICENSE.txt"><img src="https://img.shields.io/badge/plugin%20API-MIT-green?style=flat-square" /></a>
+  <img src="https://img.shields.io/badge/spec-CC%20BY%204.0-orange?style=flat-square" />
+</p>
 
-**𝑓oλang** is a general-purpose programming language aimed at providing expressive, consistent, and extensible syntax.
+# Foλang Programming Language
 
-It combines object-based structure with a functional style to create fluent and readable code.
+Foλang is a general-purpose programming language designed to be **expressive, consistent, and extensible**, merging functional fluency with object-centric abstractions.
 
-The language’s initial concepts were developed in 2025 and form the basis of the current FoLang specification.
+---
 
-## License
+## 📌 Table of Contents
+1. [Overview](#overview)
+2. [Licensing Model](#licensing-model)
+3. [Downloads](#downloads)
+4. [Building From Source](#building-from-source)
+5. [Dependencies](#dependencies)
+6. [Plugin Ecosystem & Legal Docs](#plugin-ecosystem--legal-docs)
+7. [Acknowledgments](#acknowledgments)
 
-This project uses a dual license model:
+---
 
-- 🧠 **Language Specification** is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
-- 🧠 **Innovative language design concepts** are licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-- 🧠 **Novel syntax design choices in this language** are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
-  You may use and adapt the specification freely, but must credit the original author.
+## Overview
 
-- 🧰 **All source code** (compiler, interpreter, tools) iunder the GNU General Public License v3.0 (GPLv3) see [License ](LICENSE.txt) file or at https://www.gnu.org/licenses/gpl-3.0.html..  
+Foλang combines:
 
+✨ Functional programming fluency  
+✨ Object semantics  
+✨ Modern syntax theory  
 
-## Download and Install
+This project originated in **2025**, evolving into a structured language platform.
 
-### Binary Distribution
-Official binaries can be downloaded from [Releases](https://github.com/samkrao/folang/releases).
+---
 
-### Install From Sources
-If a binary is not available for your architecture and/or operating system:
+## 📜 Licensing Model
 
-* **Download** and install the latest Golang compiler (1.24+)
-* **Download** and install MingW/GCC as mentioned in the **Dependencies** or **Requirements** section below
-* Checkout the code:
-  ```bash
-  git clone https://github.com/samkrao/folang.git
-* Install prerequisite packages:
-  ```bash
-  go get -u ./...
-  
-## Documentation
-[F̷𝒐λang Document](./docs/README.md)
+FoLang uses a **multi-license architecture**:
 
-
-# Desclaimer
-
-   If a feature is missing because,
-
-        1. Limitation (meaning authors inability to implement) nothing more or less no other interpretations
-        2. Implemented in other way or missing if so let us know we will try to incorporate if it will not become a limitation
+### 📘 Language & Specification — CC BY 4.0  
+✔ Reusable with attribution  
+🔗 https://creativecommons.org/licenses/by/4.0/
 
 
+### 🔧 Compiler Frontend — GPLv3 + Plugin Exception  
+See [LICENSE](frontend/LICENSE.txt) and [PLUGIN_EXCEPTION](shared/PLUGIN_EXCEPTION.md)
 
-## Dependencies or Requirements
+### 🧱 Backend Binary Code Generator — BSD 3-Clause  
+See [LICENSE](backend/LICENSE-BSD-3-CLAUSE.txt)
+🔗 https://opensource.org/licenses/BSD-3-Clause
 
-   C++ Compiler
+### 🔌 Plugin / Shared API Layer — MIT License
+✔ Allows open, commercial, or closed plugins  
+📌 See [LICENSE](shared/LICENSE.txt)  
+🔗 https://opensource.org/licenses/MIT
 
-   1. Windows:
-      
-      a. GCC Windows Version Compiler Port
+---
 
-           i.  [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/)
+## Downloads
 
-           ii. [MingW](https://osdn.net/projects/mingw/releases/p15691)
+➡ Official Releases  
+https://github.com/samkrao/folang/releases
 
-           iii [MSYS2](https://www.msys2.org/)
-       
-           iv  [MingW-w64 Compiler](https://github.com/nixman/mingw-builds-binaries?tab=readme-ov-file)
+---
 
-           v  [MingW-Winlibs](https://www.winlibs.com/)
+## Building From Source
 
-      ##### b. Used Migw-w64 Compiler (option iv) for windows
-                    
-      c. Set Path variable to bin folder of mingw installation 
+```sh
+git clone https://github.com/samkrao/folang.git
+go get -u ./...
+```
 
-    
-   3. Linux
-   
-       Default GCC
+---
 
-### CLang Port is under implementation
+## Dependencies
 
+### Windows
+✔ MinGW / MSYS2 / Winlibs / TDM-GCC
 
-##  Acknowledgments
+### Linux
+✔ Default GCC toolchain
 
-This project was inspired by the amazing work of:
+### Clang
+🔧 Port in progress
 
-- [Bob Nystrom](https://github.com/munificent)
-- [David Callanan](https://github.com/davidcallanan)
-- [Tyler Laceby](https://github.com/tlaceby)
-- ChatGPT by OpenAI
+---
 
-See [CREDITS.md](https://github.com/samkrao/folang/blob/main/frontend/docs/CREDITS.md) for more details.
+## Plugin Ecosystem & Legal Docs
 
+FoLang supports third‑party plugins under flexible licensing.
 
+Documents available in `plugin_license/`:
 
-## 📘 Roadmap
+- [CLA](plugin_license/CLA.txt) — Contributor License Agreement  
+- [EULA](plugin_license/PLUGIN_EULA.txt) — Commercial license template  
+- [BADGE](plugin_license/CERT_BADGE.txt) — Label text for certified plugins  
+- [PLUGIN POLICY](plugin_license/PLUGIN_POLICY_README.md) — Rules for plugin authors
 
-See:  
-➡️ [MILESTONES.md](./ROADMAP.md)  
-(A complete milestone checklist with progress tracking)
+---
+
+## Acknowledgments
+
+Inspired by:
+
+- Bob Nystrom
+- David Callanan
+- Tyler Laceby
+- ChatGPT
+
+See `docs/CREDITS.md` for full attribution.
